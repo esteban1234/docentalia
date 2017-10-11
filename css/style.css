@@ -1,0 +1,380 @@
+
+.bannerh{
+position: relative;
+width: 100%;
+height:635px;
+background: url('../img/tanque.jpg') center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+ overflow: hidden;
+}
+.fondo{
+position: relative;
+width: 100%;
+height:635px;
+background-color: rgba( 0, 0, 0,.5);
+}
+
+header{
+	/*border: 2px red solid;*/
+	overflow: hidden;
+	width: 100%;
+	/*background-color: #e5e3e2;*/
+  background-color:  #d5dbdb;
+}
+.logo{
+	width: 20%;
+	margin-right: 8%;
+  margin-top: 0%;
+}
+.menu{
+  /*border: 2px red solid;*/
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.menu ul{
+  padding-left: 0px;
+  padding: 20px;
+}
+.menu ul a.selector{
+  padding: 20px;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  
+}
+.menu ul a.selector:hover{
+  background-color: #ccd1d1;
+}
+#select{
+  background-color: #ccd1d1;
+}
+
+.text-banner{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 12%;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.btn-primary.btn-outline {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  border: 1px #358983 solid;
+}
+
+.btn-primary.btn-outline:hover {
+    color: #fff;
+    background-color: #358983;
+    border: 1px #358983 solid;
+}
+
+.seccion1{
+	width: 100%;
+	overflow: hidden;
+	/*border: 2px red solid;*/
+	/*padding: 5% 0% 5% 0%;*/
+}
+
+.imagen{
+position: relative;
+/*border: 2px red solid;*/
+/*width: 100%;*/
+height:535px;
+background: url('../img/tanques.jpg') center;
+background-size: cover;
+background-repeat: no-repeat;
+/*background-attachment: fixed;*/
+ overflow: hidden;
+}
+.tit{
+  margin-top: 20%;
+}
+.texto{
+  font-size: 17px;
+}
+.seccion11{
+  background-color: #F9F9F9;
+  padding-bottom: 5%;
+}
+.tit2{
+  margin-top: 10%;
+}
+
+.seccion2{
+	width: 100%;
+	overflow: hidden;
+	/*border: 2px red solid;*/
+	padding: 8% 0% 9% 0%;
+	/*background-color: #373736;*/
+}
+.imagens{
+  /*border: 2px red solid;*/
+  width: 100%;
+  height: 350px;
+  position: relative;
+  background: url('../img/almacenamiento.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  overflow: hidden;
+}
+.imagens2{
+  /*border: 2px red solid;*/
+  width: 100%;
+  height: 350px;
+  position: relative;
+  background: url('../img/transporte.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  overflow: hidden;
+}
+.imagens3{
+  /*border: 2px red solid;*/
+  width: 100%;
+  height: 350px;
+  position: relative;
+  background: url('../img/produccion.jpeg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  overflow: hidden;
+}
+.imagens4{
+  /*border: 2px red solid;*/
+  width: 100%;
+  height: 350px;
+  position: relative;
+  background: url('../img/motores.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  overflow: hidden;
+}
+.banners{
+  /*border: 2px red solid;*/
+  width: 100%;
+  height: 550px;
+  position: relative;
+  background: url('../img/plataforma.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.cont{
+  background-color: rgba(255,255,255,.5);
+  padding: 20px 0px;
+  width: 60%;
+  margin: 0 auto;
+}
+.pric-grid {
+  background: #f3f3f3 /*rgba(238, 238, 238, 0.82) */; 
+  padding: 0px 0px;
+    border: 1px solid  #333333/*red*/;
+    margin: 2% 5% 0 0;
+  width: 30%;
+
+}
+.pric-list {
+  padding: 25px 0;
+}
+.pric-top{
+  background: #358983;
+}
+.pric-top h4{
+  font-size: 1.3em;
+  color: #000;  
+  text-transform: capitalize;
+  padding-top: 3px;
+  display: inline-block;
+  padding-left: 1em;
+}
+.pric-top span{
+  color: #7ab800;
+  font-size:2.0em;
+  display:inline-block;
+  background:#eeedeb;
+  padding: 10px 26px 7px 26px;
+  font-weight:600;
+}
+.pric-list ul li {
+  list-style: none;
+  font-size: 1.1em;
+  text-align:center;
+  padding: 12px 0 ;
+  color: #333333;
+  /*border-bottom: 1px solid #CCCCCC;*/
+  margin: 0 40px;
+  font-weight: 400;
+
+}
+.pric-list p {
+  /*color: #fff
+  text-align: center;
+  font-size: 1.2em;
+  background: #7ab800;*/
+  width: 35%;
+ /* margin: 1em 5.5em -1em;
+  padding: 0.5em 0;
+  border: 1px solid #999999;
+  font-weight: 700;*/
+}
+
+
+.pric-grid:nth-child(3) {
+  margin-right: 0;
+}
+.pric-grid:hover {
+  transform: scale(1.05);
+  transition: .5s all;
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  -o-transition: .5s all;
+  -ms-transition: .5s all;
+
+  border-radius: 6px;
+}
+.pric-list p:hover{
+  transform: scale(1.01);
+  transition: .5s all;
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  -o-transition: .5s all;
+  -ms-transition: .5s all;
+
+  color:#fff;
+  border-radius: 6px;
+}
+.seccion3{
+	width: 100%;
+	overflow: hidden;
+	/*border: 2px red solid;*/
+	padding: 0% 0% 3% 0%;
+}
+  #tip 
+        {
+            display:none;  
+        }
+
+        .fadeIn
+        {
+          animation-duration: 3s;
+        }
+
+        .form-control
+        {
+          border-radius:0px;
+          border:1px solid #EDEDED;
+        }
+
+        .form-control:focus
+        {
+          border:1px solid #00bfff;
+        }
+
+        .textarea-contact
+        {
+          resize:none; 
+        }
+
+        .btn-send
+        {
+          border-radius: 0px;
+          border:1px solid #358983;
+          background:#358983;
+          color:#fff; 
+        }
+
+        .btn-send:hover
+        {
+          border:1px solid #00bfff;
+          background:#fff;
+          color:#00bfff;
+          transition:background 0.5s;   
+        }
+
+        .second-portion
+        {
+          margin-top:50px; 
+        }
+
+            @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+    @import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+
+    .box > .icon { text-align: center; position: relative; }
+    .box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background: #358983; vertical-align: middle; }
+    .box > .icon:hover > .image { background: #333; }
+    .box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
+    .box > .icon:hover > .image > i { color: white !important; }
+    .box > .icon > .info { margin-top: -24px; background: rgba(0, 0, 0, 0.04); border: 1px solid #e0e0e0; padding: 15px 0 10px 0; min-height:163px;}
+    .box > .icon:hover > .info { background: rgba(0, 0, 0, 0.04); border-color: #e0e0e0; color: white; }
+    .box > .icon > .info > h3.title { font-family: "Robot",sans-serif !important; font-size: 16px; color: #222; font-weight: 700; }
+    .box > .icon > .info > p { font-family: "Robot",sans-serif !important; font-size: 13px; color: #666; line-height: 1.5em; margin: 20px;}
+    .box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #222; }
+    .box > .icon > .info > .more a { font-family: "Robot",sans-serif !important; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase; text-decoration: none; }
+    .box > .icon:hover > .info > .more > a { color: #fff; padding: 6px 8px; background-color: #63B76C; }
+    .box .space { height: 30px; }
+
+    @media only screen and (max-width: 768px)
+    {
+      .contact-form
+      {
+        margin-top:25px; 
+      }
+
+      .btn-send
+      {
+        width: 100%;
+        padding:10px; 
+      }
+
+      .second-portion
+      {
+        margin-top:25px; 
+      }
+    }
+  /* Conatct end */
+/*--------------FOOTER----------*/
+footer{
+  width: 100%;
+  background:#358983;
+  font-family: 'Montserrat', sans-serif;
+  height: 100px;
+  /*font-size: 20px;*/
+  overflow: hidden;
+  clear: both;
+
+}
+footer p{
+  /*border: 2px red solid;*/
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2.5%;
+    color: #000;
+}
+
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#358983;
+	font-size:20px;
+	color:#000;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+	z-index: 100;
+}

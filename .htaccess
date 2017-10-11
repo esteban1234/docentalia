@@ -1,0 +1,2 @@
+ ErrorDocument 403 http://docentalia.com/index.php
+ Options -Indexes
