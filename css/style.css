@@ -48,8 +48,13 @@ header{
 .menu ul a.selector:hover{
   background-color: #ccd1d1;
 }
-#select{
-  background-color: #ccd1d1;
+
+.op-menu{
+  display: none;
+}
+
+.select{
+  background-color: #ccd1d1 !important;
 }
 
 .text-banner{

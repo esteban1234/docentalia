@@ -42,14 +42,17 @@
       <figure class="logo pull-right">
         <img src="img/docentalia.png" class="img-responsive" alt="DENNOR">
       </figure>
-      <nav class=" menu pull-left">
+      <nav class="menu pull-left">
         <ul>
-          <a class="selector" id="select" data-scroll href="#INICIO" aria-pressed="true">INICIO</a>
+          <a class="selector select"  data-scroll href="#INICIO" aria-pressed="true">INICIO</a>
           <a class="selector" data-scroll href="#NOSOTROS" aria-pressed="true">NOSOTROS</a>
           <a class="selector" data-scroll href="#SERVICIOS" aria-pressed="true">SERVICIOS</a>
           <a class="selector" data-scroll href="#CONTACTO" aria-pressed="true">CONTACTO</a>
         </ul>
       </nav>
+      <div class="op-menu">
+        <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+      </div>
     </header>
     
     <p class="text-banner"> Empresa Socialmente Responsable (ESR); <br> eficiente y competitiva en venta de gasolina y diesel</p>
@@ -64,14 +67,14 @@
   <span class="ir-arriba"><i class="fa fa-arrow-up" aria-hidden="true"></i></span>
 
 <section class="seccion1" id="NOSOTROS">
-        <div class="row">
-          <div class="col-md-6 imagen">
+        <div class="row row-low">
+          <div class="col-sm-5 col-md-6 imagen">
             
           </div>
-          <div class="col-md-4 col-md-offset-1" >
+          <div class="col-sm-7 col-md-4 col-md-offset-1 quitar-margen">
             <h1 class="tit">Nuestra <b style="color: #358983;">EMPRESA</b></h1>
-            <h4>CORPORATIVO DOCENTALIA S.A. DE C.V.</h4>
-            <p class="texto">Somos una empresa con servicios de venta de gasolina y diésel, refinación de petróleo y elaboración de combustibles automotrices. <br><br>
+            <h4 class="tit-inicio">CORPORATIVO DOCENTALIA S.A. DE C.V.</h4>
+            <p class="texto txt-alineado">Somos una empresa con servicios de venta de gasolina y diésel, refinación de petróleo y elaboración de combustibles automotrices. <br><br>
             Nuestro objetivo principal es satisfacer la demanda de nuestros clientes, para lo cual contamos con la infraestructura más moderna en almacenaje, logística y personal altamente capacitado en el manejo y operación de todo tipo de combustibles. <br><br>
             Entendemos los retos de las empresas de México y ponemos a su disposición herramientas y tecnologías que le permitan tener mayor control sobre sus consumos y manejos de combustible.</p>
           </div>
@@ -80,44 +83,44 @@
         <div class="section seccion11">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-xs-12 col-sm-6 col-md-6">
             
             <h1 class="tit2"><b style="color: #358983;">Políticas</b></h1>
             <!-- <h4>CORPORATIVO DOCENTALIA S.A. DE C.V.</h4> -->
             <br><br>
-            <p class="texto">Somos una Empresa Socialmente Responsable (ESR), eficiente y competitiva en el area de los combustibles, nuestros servicios son de calidad preocupándonos en ofrecer al cliente el suministro de combustible en tiempo y forma, procurando su satisfacción y confianza; cuidando el Medio Ambiente, la Seguridad y Salud de nuestros trabajadores en el proceso de: Suministro de Diésel y Gasolina.<br><br>
+            <p class="texto txt-alineado">Somos una Empresa Socialmente Responsable (ESR), eficiente y competitiva en el area de los combustibles, nuestros servicios son de calidad preocupándonos en ofrecer al cliente el suministro de combustible en tiempo y forma, procurando su satisfacción y confianza; cuidando el Medio Ambiente, la Seguridad y Salud de nuestros trabajadores en el proceso de: Suministro de Diésel y Gasolina.<br><br>
             Proporcionados con tecnología de vanguardia, personal calificado y comprometido en la prevención de la contaminación, de las lesiones y enfermedades, el cumplimiento de los requisitos legales y reglamentarios aplicables y con la mejora continua a través del cumplimiento de las Normas Internacionales 
             </p>
             <figure class="">
-                <img src="img/docentalia.png" class="img-responsive" alt="DENNOR">
+                <img src="img/docentalia.png" class="img-responsive img-oculta" alt="DENNOR">
             </figure>
           </div>
-          <div class="col-md-6">
-                <div class="row tit2">
-                  <div class="col-md-2">
-                    <i class="fa fa-check-square-o fa-5x" aria-hidden="true"></i>
+          <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="row">
+                  <div class="col-xs-12 col-md-2 br-bor">
+                    <i class="fa fa-check-square-o fa-5x new-tam" aria-hidden="true"></i>
                   </div>
-                  <div class="col-md-10">
-                    <h3 class="text-left">Misión</h3>
-                    <p class="text-left texto">Servir al cliente en la venta de combustibles, excediendo sus expectativas de atención y servicio, con rapidez, amabilidad y confiabilidad realizado con un equipo humano altamente preparado, respetuoso, orientado a servir y generar valor para el cliente, nuestros colaboradores, los accionistas y la comunidad.</p>
+                  <div class="col-xs-12 col-md-10">
+                    <h3 class="text-left mvv">Misión</h3>
+                    <p class="text-left texto txt-alineado">Servir al cliente en la venta de combustibles, excediendo sus expectativas de atención y servicio, con rapidez, amabilidad y confiabilidad realizado con un equipo humano altamente preparado, respetuoso, orientado a servir y generar valor para el cliente, nuestros colaboradores, los accionistas y la comunidad.</p>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-md-2">
-                    <i class="fa fa-eye fa-5x" aria-hidden="true"></i>
+                  <div class="col-xs-12 col-md-2 br-bor">
+                    <i class="fa fa-eye fa-5x new-tam" aria-hidden="true"></i>
                   </div>
-                  <div class="col-md-10">
-                    <h3 class="text-left">Visión</h3>
-                    <p class="text-left texto">Ser la mejor opción en el suministro de combustible, afianzando la fidelidad de nuestros clientes mediante el mejor trato, atención personalizada, la mayor calidad en el servicio, la generación de valores con el mejor equipo humano y tomando conciencia del cuidado del medio ambiente.</p>
+                  <div class="col-xs-12 col-md-10">
+                    <h3 class="text-left mvv">Visión</h3>
+                    <p class="text-left texto txt-alineado">Ser la mejor opción en el suministro de combustible, afianzando la fidelidad de nuestros clientes mediante el mejor trato, atención personalizada, la mayor calidad en el servicio, la generación de valores con el mejor equipo humano y tomando conciencia del cuidado del medio ambiente.</p>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-md-2">
-                    <i class="fa fa-retweet fa-5x" aria-hidden="true"></i>
+                  <div class="col-xs-12 col-md-2 br-bor">
+                    <i class="fa fa-retweet fa-5x new-tam" aria-hidden="true"></i>
                   </div>
-                  <div class="col-md-6">
-                    <h3 class="text-left">Valores</h3>
-                    <p class="text-left texto">
+                  <div class="col-xs-12 col-md-6">
+                    <h3 class="text-left mvv">Valores</h3>
+                    <p class="text-left texto txt-centrado">
                       * Seguridad <br>
                       * Calidad <br>
                       * Servicio al Cliente <br>
@@ -136,38 +139,38 @@
 
 
 <section class="seccion2" id="SERVICIOS">
-  <h1 class="text-center"><i class="fa fa-briefcase" aria-hidden="true"></i> Nuestros <b style="color: #358983;">SERVICIOS</b></h1>
+  <h1 class="text-center tit3"><i class="fa fa-briefcase" aria-hidden="true"></i> Nuestros <b style="color: #358983;">SERVICIOS</b></h1>
   <p class="text-center">Ponemos a su disposición nuestra amplia experiencia y asesoramiento en cuanto a la venta de combustible:</p> <br><br><br>
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-sm-6 col-md-6">
             <figure class="imagens">
               
             </figure>
-            <h2 class="text-center">ALMACENAMIENTO</h2>
+            <h2 class="text-center tit-at">ALMACENAMIENTO</h2>
             <p></p>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6 col-md-6">
             <figure class="imagens2">
               
             </figure>
-            <h2 class="text-center">TRANSPORTE TERRESTRE</h2>
+            <h2 class="text-center tit-at">TRANSPORTE TERRESTRE</h2>
             <p></p>
           </div>
         </div> <br><br>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-sm-6 col-md-6">
             <figure class="imagens3">
               
             </figure>
-            <h2 class="text-center">Producción, elaboración de combustibles automotrices.</h2>
+            <h2 class="text-center tit-pf">Producción, elaboración de combustibles automotrices.</h2>
             <p></p>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6 col-md-6">
             <figure class="imagens4">
               
             </figure>
-            <h2 class="text-center">Fabricación de motores de combustión interna, turbinas y transmisiones</h2>
+            <h2 class="text-center tit-pf">Fabricación de motores de combustión interna, turbinas y transmisiones</h2>
             <p></p>
           </div>
         </div>
@@ -178,9 +181,9 @@
            <h1 class="text-center">Producto En <b style="color: #358983;">VENTA</b></h1>
              <p class="text-center">Ponemos a su disposición los siguientes productos:</p>
          </div> <br><br><br>
-         <div class="container">   
+         <div class="container br-container">   
     <div class="pricing-grids">
-      <div class="col-md-4 pric-grid effect">
+      <div class="col-xs-12 col-sm-4 col-md-4 pric-grid effect">
         <div class="pric-top">
           <span>1</span>                      
           <h4>Pemex Diesel</h4>
@@ -191,7 +194,7 @@
             </ul>
         </div>
       </div>      
-      <div class="col-md-4 pric-grid effect">
+      <div class="col-xs-12 col-sm-4 col-md-4 pric-grid effect">
         <div class="pric-top">
           <span>2</span>                      
           <h4>Diesel Industrial Bajo Azufre</h4>
@@ -202,7 +205,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-md-4 pric-grid effect">
+      <div class="col-xs-12 col-sm-4 col-md-4 pric-grid effect">
         <div class="pric-top">
           <span>3</span>                      
           <h4>Petroleo</h4>
@@ -220,8 +223,8 @@
 </section>
 
 <section class="seccion3" id="CONTACTO">
-  <h1 class="text-center"><i class="fa fa-phone" aria-hidden="true"></i><b style="color: #358983;"> CONTACTO</b></h1>
-  <p class="text-center" style="width: 80%;margin: 0 auto;">Podrás dejar tu consulta, comentario, sugerencia o lo que consideres conveniente en relación a nuestros servicios y nuestro equipo de especialistas se encargará de responderte en la mayor brevedad posible.</p> <br><br><br>
+  <h1 class="text-center tit-at"><i class="fa fa-phone" aria-hidden="true"></i><b style="color: #358983;"> CONTACTO</b></h1>
+  <p class="text-center txt-alineado" style="width: 80%;margin: 0 auto;">Podrás dejar tu consulta, comentario, sugerencia o lo que consideres conveniente en relación a nuestros servicios y nuestro equipo de especialistas se encargará de responderte en la mayor brevedad posible.</p> <br><br><br>
       <!-- <div class="container">
         <div class="row">
         </div>
@@ -235,24 +238,25 @@
       </div>
 
       <div class="col-sm-6">
-        <form action="form.php" class="contact-form" method="post">
+        <form action="form.php" class="contact-form" method="post" onSubmit="return false">
   
             <div class="form-group">
-              <input type="text" class="form-control" id="name" name="nm" placeholder="Nombre Completo" required="">
+              <input type="text" class="form-control" id="txtNOMBRE" name="nm" placeholder="Nombre Completo" required="">
             </div>
         
         
             <div class="form-group form_left">
-              <input type="email" class="form-control" id="email" name="em" placeholder="Email" required="">
+              <input type="email" class="form-control" id="txtCORREO" name="em" placeholder="Email" required="">
             </div>
         
           <div class="form-group">
-               <input type="text" class="form-control" id="phone" maxlength="10" placeholder="Numero teléfonico" required="">
+               <input type="text" class="form-control" id="txtTELEFONO" maxlength="10" placeholder="Numero teléfonico" required="">
           </div>
           <div class="form-group">
-          <textarea class="form-control textarea-contact" rows="5" id="comment" name="FB" placeholder="Escribe tu comentario" required=""></textarea>
+          <textarea class="form-control textarea-contact" rows="5" id="txtCOMENTARIO" name="FB" placeholder="Escribe tu comentario" required=""></textarea>
           <br>
-            <button class="btn btn-default btn-send"> <span class="fa fa-send"></span> Enviar </button>
+            <div id="_AJAX_PRE_" class="col-md-12"></div><br>
+            <button class="btn btn-default btn-send" onclick="sendCORREO()"> <span class="fa fa-send"></span> Enviar </button>
           </div>
         </form>
       </div>
@@ -262,7 +266,7 @@
   <div class="container second-portion">
   <div class="row">
         <!-- Boxes de Acoes -->
-      <div class="col-md-3">
+      <div class="col-sm-6 col-md-3">
       <div class="box">             
         <div class="icon">
           <div class="image"><i class="fa fa-envelope" aria-hidden="true"></i></div>
@@ -281,7 +285,7 @@
       </div> 
     </div>
       
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
       <div class="box">             
         <div class="icon">
           <div class="image"><i class="fa fa-mobile" aria-hidden="true"></i></div>
@@ -295,8 +299,10 @@
         <div class="space"></div>
       </div> 
     </div>
+
+    <div class="clearfix visible-sm"></div>
       
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
       <div class="box">             
         <div class="icon">
           <div class="image"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
@@ -311,7 +317,7 @@
       </div> 
     </div>        
     
-     <div class="col-md-3">
+     <div class="col-sm-6 col-md-3">
       <div class="box">             
         <div class="icon">
           <div class="image"><i class="fa fa-clock-o" aria-hidden="true"></i></div>

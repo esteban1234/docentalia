@@ -29,8 +29,18 @@ $mail->isHTML(true);
 
 $mail->Subject = "Cotización DOCENTALIA";
 $mail->Body = "
-              <b>Telefono: </b>.$telefono.<br/>
-              <b>Comentario: </b>.$comentario.<br/>";
+              <!DOCTYPE html>
+                <html>
+                <head>
+                <title>Page Title</title>
+                </head>
+                <body  style='border:.5px solid rgba('0,0,0,0.8');background:#fff'>                
+                <h1 style='text-align:center;  font-weight: bold'>DOCENTALIA</h1>
+                <b>Telefono: </b>$telefono<br/>
+                <div style='color:#747474; padding:20px 10px; text-align: justify'>$comentario <div><br/>
+
+                </body>
+                </html>";
 // $mail->AltBody = "This is the plain text version of the email content";
 
 if(!$mail->send())
